@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=667eea&height=180&section=header&text=Newtan%20Ananda%20Gopal&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=667eea&height=180&section=header&text=Newtan%20A.G%20Mukhopadhyay&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%"/>
 
 <br/>
 
