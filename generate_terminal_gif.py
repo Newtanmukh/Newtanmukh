@@ -1,6 +1,6 @@
 """
 Generate an animated terminal GIF for the GitHub README
-This script creates frame-by-frame animation of the terminal commands
+Sequential commands with screen clear between them
 """
 
 from PIL import Image, ImageDraw, ImageFont
@@ -13,19 +13,14 @@ WIDTH, HEIGHT = 1000, 600
 BG_COLOR = (30, 30, 30)  # Dark background
 BORDER_COLOR = (102, 126, 234)  # Blue-purple
 TEXT_COLOR = (0, 255, 0)  # Neon green
-PROMPT_COLOR = (102, 126, 234)  # Blue-purple for $
 OUTPUT_COLOR = (255, 255, 255)  # White
-TAG_COLOR = (255, 107, 107)  # Red for >
-SUCCESS_COLOR = (0, 255, 0)  # Green for ✓
 GOLD_COLOR = (255, 215, 0)  # Gold for name
 
 # Font setup
 try:
-    # Try to use a monospace font
     font_large = ImageFont.truetype("C:\\Windows\\Fonts\\consolas.ttf", 18)
     font_small = ImageFont.truetype("C:\\Windows\\Fonts\\consolas.ttf", 16)
 except:
-    # Fallback to default font
     font_large = ImageFont.load_default()
     font_small = ImageFont.load_default()
 
@@ -46,50 +41,51 @@ def create_base_image():
     
     return img, draw
 
-def draw_text(draw, x, y, text, color, font):
-    """Draw text at specified position"""
-    draw.text((x, y), text, fill=color, font=font)
-
-def add_frame(frames, img):
+def add_frame(img):
     """Add a frame to the animation"""
     frames.append(img.copy())
 
-# ========== FRAME SEQUENCE ==========
+# ========== COMMAND 1: whoami ==========
 
-# Frame 1: Empty terminal
+# Empty terminal
 img, draw = create_base_image()
-add_frame(frames, img)
+add_frame(img)
 
-# Frames 2-9: Type "$ whoami" character by character
+# Type "$ whoami" character by character
 whoami_cmd = "$ whoami"
 for i in range(len(whoami_cmd) + 1):
     img, draw = create_base_image()
     cmd_text = whoami_cmd[:i]
-    draw.text((70, 70), cmd_text, fill=TEXT_COLOR, font=font_large)
+    draw.text((70, 100), cmd_text, fill=TEXT_COLOR, font=font_large)
     # Draw cursor
-    draw.rectangle([(70 + len(cmd_text) * 11, 70), (75 + len(cmd_text) * 11, 92)], fill=TEXT_COLOR)
-    add_frame(frames, img)
+    draw.rectangle([(70 + len(cmd_text) * 11, 100), (75 + len(cmd_text) * 11, 122)], fill=TEXT_COLOR)
+    add_frame(img)
 
-# Frames: Show whoami output (hold for a few frames)
+# Show whoami output
+for _ in range(4):
+    img, draw = create_base_image()
+    draw.text((70, 100), "$ whoami", fill=TEXT_COLOR, font=font_large)
+    draw.text((70, 160), "Newtan Ananda Gopal Mukhopadhyay", fill=GOLD_COLOR, font=font_large)
+    add_frame(img)
+
+# Screen blank transition
 for _ in range(3):
     img, draw = create_base_image()
-    draw.text((70, 70), "$ whoami", fill=TEXT_COLOR, font=font_large)
-    draw.text((70, 120), "Newtan Ananda Gopal Mukhopadhyay", fill=GOLD_COLOR, font=font_large)
-    add_frame(frames, img)
+    add_frame(img)
 
-# Frames: Type "$ cat interests.txt" character by character
+# ========== COMMAND 2: cat interests.txt ==========
+
+# Type "$ cat interests.txt" character by character
 cat_cmd = "$ cat interests.txt"
 for i in range(len(cat_cmd) + 1):
     img, draw = create_base_image()
-    draw.text((70, 70), "$ whoami", fill=TEXT_COLOR, font=font_large)
-    draw.text((70, 120), "Newtan Ananda Gopal Mukhopadhyay", fill=GOLD_COLOR, font=font_large)
     cmd_text = cat_cmd[:i]
-    draw.text((70, 170), cmd_text, fill=TEXT_COLOR, font=font_large)
+    draw.text((70, 80), cmd_text, fill=TEXT_COLOR, font=font_large)
     # Draw cursor
-    draw.rectangle([(70 + len(cmd_text) * 11, 170), (75 + len(cmd_text) * 11, 192)], fill=TEXT_COLOR)
-    add_frame(frames, img)
+    draw.rectangle([(70 + len(cmd_text) * 11, 80), (75 + len(cmd_text) * 11, 102)], fill=TEXT_COLOR)
+    add_frame(img)
 
-# Frames: Show interests box appearing line by line
+# Show interests box appearing line by line
 interests_lines = [
     "> System Design Enthusiast",
     "> Algorithm Optimization Expert",
@@ -99,59 +95,51 @@ interests_lines = [
 
 for num_lines in range(len(interests_lines) + 1):
     img, draw = create_base_image()
-    draw.text((70, 70), "$ whoami", fill=TEXT_COLOR, font=font_large)
-    draw.text((70, 120), "Newtan Ananda Gopal Mukhopadhyay", fill=GOLD_COLOR, font=font_large)
-    draw.text((70, 170), "$ cat interests.txt", fill=TEXT_COLOR, font=font_large)
+    draw.text((70, 80), "$ cat interests.txt", fill=TEXT_COLOR, font=font_large)
     
     # Draw box
-    box_y = 210
-    draw.rectangle([(80, box_y), (920, box_y + 140)], outline=BORDER_COLOR, width=2)
+    box_y = 140
+    draw.rectangle([(80, box_y), (920, box_y + 160)], outline=BORDER_COLOR, width=2)
     
-    # Draw interests lines
+    # Draw interests lines one by one
     for idx in range(num_lines):
-        line_y = box_y + 20 + (idx * 28)
+        line_y = box_y + 25 + (idx * 32)
         draw.text((100, line_y), interests_lines[idx], fill=OUTPUT_COLOR, font=font_small)
     
-    add_frame(frames, img)
+    add_frame(img)
 
 # Hold on full interests box
-for _ in range(3):
+for _ in range(4):
     img, draw = create_base_image()
-    draw.text((70, 70), "$ whoami", fill=TEXT_COLOR, font=font_large)
-    draw.text((70, 120), "Newtan Ananda Gopal Mukhopadhyay", fill=GOLD_COLOR, font=font_large)
-    draw.text((70, 170), "$ cat interests.txt", fill=TEXT_COLOR, font=font_large)
+    draw.text((70, 80), "$ cat interests.txt", fill=TEXT_COLOR, font=font_large)
     
-    box_y = 210
-    draw.rectangle([(80, box_y), (920, box_y + 140)], outline=BORDER_COLOR, width=2)
+    box_y = 140
+    draw.rectangle([(80, box_y), (920, box_y + 160)], outline=BORDER_COLOR, width=2)
     
     for idx in range(len(interests_lines)):
-        line_y = box_y + 20 + (idx * 28)
+        line_y = box_y + 25 + (idx * 32)
         draw.text((100, line_y), interests_lines[idx], fill=OUTPUT_COLOR, font=font_small)
     
-    add_frame(frames, img)
+    add_frame(img)
 
-# Frames: Type "$ npm run build-dreams" character by character
+# Screen blank transition
+for _ in range(3):
+    img, draw = create_base_image()
+    add_frame(img)
+
+# ========== COMMAND 3: npm run build-dreams ==========
+
+# Type "$ npm run build-dreams" character by character
 npm_cmd = "$ npm run build-dreams"
 for i in range(len(npm_cmd) + 1):
     img, draw = create_base_image()
-    draw.text((70, 70), "$ whoami", fill=TEXT_COLOR, font=font_large)
-    draw.text((70, 120), "Newtan Ananda Gopal Mukhopadhyay", fill=GOLD_COLOR, font=font_large)
-    draw.text((70, 170), "$ cat interests.txt", fill=TEXT_COLOR, font=font_large)
-    
-    box_y = 210
-    draw.rectangle([(80, box_y), (920, box_y + 140)], outline=BORDER_COLOR, width=2)
-    
-    for idx in range(len(interests_lines)):
-        line_y = box_y + 20 + (idx * 28)
-        draw.text((100, line_y), interests_lines[idx], fill=OUTPUT_COLOR, font=font_small)
-    
     cmd_text = npm_cmd[:i]
-    draw.text((70, 380), cmd_text, fill=TEXT_COLOR, font=font_large)
+    draw.text((70, 80), cmd_text, fill=TEXT_COLOR, font=font_large)
     # Draw cursor
-    draw.rectangle([(70 + len(cmd_text) * 11, 380), (75 + len(cmd_text) * 11, 402)], fill=TEXT_COLOR)
-    add_frame(frames, img)
+    draw.rectangle([(70 + len(cmd_text) * 11, 80), (75 + len(cmd_text) * 11, 102)], fill=TEXT_COLOR)
+    add_frame(img)
 
-# Frames: Show npm output appearing line by line
+# Show npm output appearing line by line
 build_output = [
     "🚀 Building scalable solutions...",
     "✓ System architectures designed",
@@ -161,54 +149,30 @@ build_output = [
 
 for num_lines in range(len(build_output) + 1):
     img, draw = create_base_image()
-    draw.text((70, 70), "$ whoami", fill=TEXT_COLOR, font=font_large)
-    draw.text((70, 120), "Newtan Ananda Gopal Mukhopadhyay", fill=GOLD_COLOR, font=font_large)
-    draw.text((70, 170), "$ cat interests.txt", fill=TEXT_COLOR, font=font_large)
+    draw.text((70, 80), "$ npm run build-dreams", fill=TEXT_COLOR, font=font_large)
     
-    box_y = 210
-    draw.rectangle([(80, box_y), (920, box_y + 140)], outline=BORDER_COLOR, width=2)
-    
-    for idx in range(len(interests_lines)):
-        line_y = box_y + 20 + (idx * 28)
-        draw.text((100, line_y), interests_lines[idx], fill=OUTPUT_COLOR, font=font_small)
-    
-    draw.text((70, 380), "$ npm run build-dreams", fill=TEXT_COLOR, font=font_large)
-    
-    # Draw output lines
-    output_y = 420
+    # Draw output lines one by one
+    output_y = 150
     for idx in range(num_lines):
-        draw.text((100, output_y + (idx * 28)), build_output[idx], fill=OUTPUT_COLOR, font=font_small)
+        draw.text((100, output_y + (idx * 32)), build_output[idx], fill=OUTPUT_COLOR, font=font_small)
     
-    add_frame(frames, img)
+    add_frame(img)
 
-# Hold on complete terminal
+# Hold on complete output
 for _ in range(5):
     img, draw = create_base_image()
-    draw.text((70, 70), "$ whoami", fill=TEXT_COLOR, font=font_large)
-    draw.text((70, 120), "Newtan Ananda Gopal Mukhopadhyay", fill=GOLD_COLOR, font=font_large)
-    draw.text((70, 170), "$ cat interests.txt", fill=TEXT_COLOR, font=font_large)
+    draw.text((70, 80), "$ npm run build-dreams", fill=TEXT_COLOR, font=font_large)
     
-    box_y = 210
-    draw.rectangle([(80, box_y), (920, box_y + 140)], outline=BORDER_COLOR, width=2)
-    
-    for idx in range(len(interests_lines)):
-        line_y = box_y + 20 + (idx * 28)
-        draw.text((100, line_y), interests_lines[idx], fill=OUTPUT_COLOR, font=font_small)
-    
-    draw.text((70, 380), "$ npm run build-dreams", fill=TEXT_COLOR, font=font_large)
-    
-    output_y = 420
+    output_y = 150
     for idx in range(len(build_output)):
-        draw.text((100, output_y + (idx * 28)), build_output[idx], fill=OUTPUT_COLOR, font=font_small)
+        draw.text((100, output_y + (idx * 32)), build_output[idx], fill=OUTPUT_COLOR, font=font_small)
     
-    add_frame(frames, img)
+    add_frame(img)
 
 # ========== SAVE GIF ==========
 
-# Create assets directory if it doesn't exist
 os.makedirs("assets", exist_ok=True)
 
-# Save as animated GIF
 frames[0].save(
     OUTPUT_PATH,
     save_all=True,
@@ -218,7 +182,6 @@ frames[0].save(
     optimize=False
 )
 
-print(f"✓ Animated GIF created successfully: {OUTPUT_PATH}")
+print(f"✓ Animated GIF created: {OUTPUT_PATH}")
 print(f"✓ Total frames: {len(frames)}")
-print(f"✓ Duration per frame: {FRAME_DURATION}ms")
-print(f"✓ Total animation time: {len(frames) * FRAME_DURATION / 1000:.1f} seconds")
+print(f"✓ Animation time: {len(frames) * FRAME_DURATION / 1000:.1f} seconds")
