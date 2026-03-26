@@ -30,10 +30,11 @@ I'm a **Full-Stack Software Engineer** with deep expertise in **System Design**,
 
 ### 💼 **Professional Experience**
 
-| Role | Company | Experience |
-|------|---------|------------|
-| **Software Engineer** | Paytm | Building robust backend systems, designing scalable microservices, optimizing payment infrastructure |
-| **SDE Intern** | Altair Engineering | Developed innovative software solutions, worked on production-level systems, collaborated across teams |
+**Software Engineer @ Paytm**  
+Building robust backend systems, designing scalable microservices, optimizing payment infrastructure
+
+**SDE Intern @ Altair Engineering**  
+Developed innovative software solutions, worked on production-level systems, collaborated across teams
 
 ---
 
@@ -53,6 +54,9 @@ Java • Python • C++ • JavaScript • SQL
 System Design • Data Structures & Algorithms • Backend Development • Microservices • Database Design • OOP & Design Patterns • Problem Solving
 
 **Technologies & Tools**  
+
+| Category | Technologies |
+|----------|---------------|
 | **Frameworks** | Node.js, Spring Boot, JSP, Django |
 | **Databases** | MySQL, PostgreSQL, MongoDB |
 | **Tools** | Git, Docker, Kubernetes, Jenkins |
