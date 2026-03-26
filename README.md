@@ -4,18 +4,7 @@
 
 <br/>
 
-<img alt="GIF" src="assets/profile.jpg" width="200px" height="200px" style="border-radius: 50%; border: 4px solid #667eea; box-shadow: 0 0 30px rgba(102, 126, 234, 0.6), inset 0 0 20px rgba(102, 126, 234, 0.2); animation: float 3s ease-in-out infinite; position: relative; z-index: 10;"/>
-
-<style>
-@keyframes float {
-  0%, 100% { transform: translateY(0px) rotateZ(0deg); }
-  50% { transform: translateY(-20px) rotateZ(2deg); }
-}
-@keyframes glow {
-  0%, 100% { box-shadow: 0 0 30px rgba(102, 126, 234, 0.6), inset 0 0 20px rgba(102, 126, 234, 0.2); }
-  50% { box-shadow: 0 0 50px rgba(102, 126, 234, 0.8), inset 0 0 30px rgba(102, 126, 234, 0.3); }
-}
-</style>
+<img alt="Newtan Mukhopadhyay" src="assets/profile.jpg" width="200px" height="200px" style="border-radius: 50%; border: 4px solid #667eea; box-shadow: 0 0 30px rgba(102, 126, 234, 0.6), inset 0 0 20px rgba(102, 126, 234, 0.2);"/>
 
 <h1>🚀 Software Engineer | System Designer | Problem Solver</h1>
 
