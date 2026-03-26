@@ -219,6 +219,9 @@ LeetCode & DSA | `C++` | [Repo](https://github.com/Newtanmukh/DSA-Problems)
 <a href="https://github.com/Newtanmukh">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
+<a href="https://www.quora.com/profile/Newton-AG-Mukhopadhyay-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AF%E0%A6%BC">
+  <img src="https://img.shields.io/badge/Quora-B92B27?style=for-the-badge&logo=quora&logoColor=white" alt="Quora"/>
+</a>
 
 <br/><br/>
 
