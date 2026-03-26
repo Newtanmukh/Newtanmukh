@@ -1,190 +1,202 @@
 <div align="center">
 
-## 👋 Welcome! I'm **Newtan Ananda Gopal Mukhopadhyay**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=667eea&height=180&section=header&text=Newtan%20Ananda%20Gopal&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%"/>
 
-<img src="assets/profile.jpg" alt="Newtan Mukhopadhyay" width="220" height="220" style="border-radius: 15%; border: 3px solid #667eea; box-shadow: 0 10px 40px rgba(102, 126, 234, 0.25), 0 0 20px rgba(102, 126, 234, 0.15);" />
+<br/>
 
-### 🚀 **Software Engineer | System Designer | Problem Solver**
+<img alt="GIF" src="assets/profile.jpg" width="200px" height="200px" style="border-radius: 50%; border: 4px solid #667eea; box-shadow: 0 0 30px rgba(102, 126, 234, 0.6), inset 0 0 20px rgba(102, 126, 234, 0.2); animation: float 3s ease-in-out infinite; position: relative; z-index: 10;"/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-@Newtanmukh-181717?style=for-the-badge&logo=github)](https://github.com/Newtanmukh)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Newtan%20AG-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/newtan-ag-mukhopadhyay-ba2193209/)
-[![Gmail](https://img.shields.io/badge/Gmail-Contact%20Me-EA4335?style=for-the-badge&logo=gmail)](mailto:your-email@example.com)
+<style>
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotateZ(0deg); }
+  50% { transform: translateY(-20px) rotateZ(2deg); }
+}
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 30px rgba(102, 126, 234, 0.6), inset 0 0 20px rgba(102, 126, 234, 0.2); }
+  50% { box-shadow: 0 0 50px rgba(102, 126, 234, 0.8), inset 0 0 30px rgba(102, 126, 234, 0.3); }
+}
+</style>
 
-**IIT Dharwad'23 | Paytm | Building Scalable Systems**
+<h1>🚀 Software Engineer | System Designer | Problem Solver</h1>
 
-</div>
+<p>
+  <img src="https://img.shields.io/badge/GitHub-@Newtanmukh-181717?style=flat-square&logo=github" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Newtan%20AG-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/IIT-Dharwad'23-FF6B6B?style=flat-square" alt="IIT Dharwad"/>
+  <img src="https://img.shields.io/badge/Working-Paytm-00CED1?style=flat-square" alt="Paytm"/>
+</p>
 
 ---
 
-<div align="center" style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%); padding: 30px; border-radius: 10px; border-left: 4px solid #667eea;">
+</div>
 
-### ✨ **About Me**
+<details open>
+<summary><h2>✨ About Me</h2></summary>
 
 I'm a **Full-Stack Software Engineer** with deep expertise in **System Design**, **Data Structures & Algorithms**, and **Backend Development**. I solve complex computational problems and design scalable distributed systems. With a strong foundation from IIT Dharwad and practical experience at industry-leading companies, I build efficient solutions that impact millions.
 
 🎯 Optimizing systems • 🧮 Crafting elegant algorithms • 🔧 Building at scale • 📚 Always learning
 
-</div>
+</details>
 
 ---
 
-### 💼 **Professional Experience**
+<details open>
+<summary><h2>💼 Professional Experience</h2></summary>
 
-**Software Engineer @ Paytm**  
+### 🔷 **Software Engineer @ Paytm**
 Building robust backend systems, designing scalable microservices, optimizing payment infrastructure
 
-**SDE Intern @ Altair Engineering**  
+### 🔶 **SDE Intern @ Altair Engineering**
 Developed innovative software solutions, worked on production-level systems, collaborated across teams
+
+</details>
 
 ---
 
-### 🎓 **Education**
+<details open>
+<summary><h2>🎓 Education</h2></summary>
 
 **Bachelor of Technology (B.Tech) in Computer Science & Engineering**  
 IIT Dharwad | 2023 | Dharwad, Karnataka, India
 
+</details>
+
 ---
 
-### 💻 **Technical Skills**
+<details open>
+<summary><h2>💻 Technical Skills</h2></summary>
 
 **Programming Languages**  
-Java • Python • C++ • JavaScript • SQL
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white" alt="Java"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
 
 **Core Competencies**  
-System Design • Data Structures & Algorithms • Backend Development • Microservices • Database Design • OOP & Design Patterns • Problem Solving
+<img src="https://img.shields.io/badge/System_Design-667eea?style=flat-square" alt="System Design"/>
+<img src="https://img.shields.io/badge/DSA-764ba2?style=flat-square" alt="DSA"/>
+<img src="https://img.shields.io/badge/Backend_Dev-FF6B6B?style=flat-square" alt="Backend"/>
+<img src="https://img.shields.io/badge/Microservices-00CED1?style=flat-square" alt="Microservices"/>
+<img src="https://img.shields.io/badge/Database_Design-FFD700?style=flat-square" alt="Database"/>
 
-**Technologies & Tools**  
+**Frameworks & Tools**  
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" alt="Spring Boot"/>
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
 
-| Category | Technologies |
-|----------|---------------|
-| **Frameworks** | Node.js, Spring Boot, JSP, Django |
-| **Databases** | MySQL, PostgreSQL, MongoDB |
-| **Tools** | Git, Docker, Kubernetes, Jenkins |
-| **Other** | JDBC, Socket.IO, REST APIs, gRPC |
+</details>
 
 ---
 
-## 📌 **Featured Projects**
+<div align="center">
 
-### 🖥️ **OS Simulator - AGNI**
+<img src="https://capsule-render.vercel.app/api?type=rect&color=667eea&text=📌%20Featured%20Projects&fontSize=30&fontColor=fff&height=100"/>
 
-A comprehensive OS simulator implementing core operating system concepts including process scheduling algorithms (FCFS, SJF, Round Robin), memory allocation, paging, and CPU scheduling strategies. Built using C++, Python, and advanced data structures.
+</div>
+
+<details open>
+<summary><h3>🖥️ OS Simulator - AGNI</h3></summary>
+
+A comprehensive OS simulator implementing core operating system concepts including process scheduling algorithms (FCFS, SJF, Round Robin), memory allocation, paging, and CPU scheduling strategies.
 
 **Tech Stack:** `C++` `Python` `Linked Lists` `Graphs` `Trees`  
 🔗 [GitHub Repository](https://github.com/Newtanmukh/AGNI)
 
----
+</details>
 
-### 🛡️ **Malware Analysis with ML - RND**
+<details open>
+<summary><h3>🛡️ Malware Analysis with ML - RND</h3></summary>
 
-Advanced cybersecurity project leveraging machine learning for malware detection and behavioral analysis. Implements sophisticated algorithms for threat classification, pattern recognition, and feature extraction from malware samples.
+Advanced cybersecurity project leveraging machine learning for malware detection and behavioral analysis. Implements sophisticated algorithms for threat classification and pattern recognition.
 
 **Tech Stack:** `Python` `Machine Learning` `Deep Learning` `Data Analysis`  
 🔗 [GitHub Repository](https://github.com/Newtanmukh/RND)
 
----
+</details>
 
-### ⚙️ **Pipelined Processor**
+<details open>
+<summary><h3>⚙️ Pipelined Processor</h3></summary>
 
-Simulated a complete pipelined processor architecture following the ToyRISC instruction set. Demonstrates deep understanding of computer architecture, instruction pipeline implementation, hazard detection, and performance optimization.
+Simulated a complete pipelined processor architecture following the ToyRISC instruction set. Demonstrates understanding of computer architecture and performance optimization.
 
 **Tech Stack:** `Computer Architecture` `Hardware Design` `Assembly`  
 🔗 [GitHub Repository](https://github.com/Newtanmukh/Pipelined_Processor)
 
----
+</details>
 
-### 🧮 **DSA Mastery - Java Edition**
+<details open>
+<summary><h3>🧮 DSA Mastery - Java Edition</h3></summary>
 
-Curated collection of essential Data Structures and Algorithms problems covering Dynamic Programming, Graph Algorithms, Tree Structures, Sliding Window optimization, and advanced data structures. Each solution optimized for time and space complexity.
+Curated collection of essential Data Structures and Algorithms problems covering Dynamic Programming, Graph Algorithms, Tree Structures, Sliding Window, and advanced data structures.
 
 **Tech Stack:** `Java` `DSA` `Algorithms`  
 🔗 [GitHub Repository](https://github.com/Newtanmukh/DSA-Using-Java)
 
----
+</details>
 
-### 🐍 **Python Frameworks & ML Tutorials**
+<details open>
+<summary><h3>🐍 Python Frameworks & ML Tutorials</h3></summary>
 
-Comprehensive learning resource covering Python frameworks, machine learning fundamentals, and deep learning implementations. Includes Flask, Django, TensorFlow, PyTorch projects, data science applications, and computer vision implementations.
+Comprehensive learning resource covering Python frameworks, machine learning, and deep learning implementations with real-world projects.
 
 **Tech Stack:** `Python` `Flask` `Django` `TensorFlow` `PyTorch`  
 🔗 [GitHub Repository](https://github.com/Newtanmukh/Python-Frameworks-Tutorials)
 
----
+</details>
 
-### 🛒 **Online BookStore**
+<details>
+<summary><h3>🛒 Other Notable Projects</h3></summary>
 
-Full-featured e-commerce platform for ordering books with shopping cart functionality, order management, and user authentication system. Built using Java, JDBC, JSP, and SQL.
+### Online BookStore
+Full-featured e-commerce platform | `Java` `JDBC` `JSP` `SQL` | [Repo](https://github.com/Newtanmukh/Online-BookStore-Website)
 
-**Tech Stack:** `Java` `JDBC` `JSP` `Servlets` `SQL`  
-🔗 [GitHub Repository](https://github.com/Newtanmukh/Online-BookStore-Website)
+### Chat Application  
+Real-time messaging | `Node.js` `Socket.IO` `JavaScript` | [Repo](https://github.com/Newtanmukh/Chat-App-using-NodeJS-and-SocketIO)
 
----
+### Compiler Design - Lex & Bison
+Compiler tools exploration | `Lex` `Bison` | [Repo](https://github.com/Newtanmukh/Using-Lex-and-Bison)
 
-### 💬 **Chat Application**
+### Competitive Programming
+LeetCode & DSA | `C++` | [Repo](https://github.com/Newtanmukh/DSA-Problems)
 
-Real-time messaging application with instant message delivery, user presence detection, and live notifications using Node.js and Socket.IO for WebSocket communication.
-
-**Tech Stack:** `Node.js` `Socket.IO` `JavaScript`  
-🔗 [GitHub Repository](https://github.com/Newtanmukh/Chat-App-using-NodeJS-and-SocketIO)
-
----
-
-### ⚙️ **Compiler Design - Lex & Bison**
-
-Implementation and exploration of Lex and Bison compiler tools demonstrating lexical analysis and syntax parsing concepts.
-
-**Tech Stack:** `Lex` `Bison` `Compiler Design`  
-🔗 [GitHub Repository](https://github.com/Newtanmukh/Using-Lex-and-Bison)
+</details>
 
 ---
 
-## 📊 **GitHub Analytics**
+<div align="center">
 
-[![GitHub Stats](https://img.shields.io/badge/Repositories-52-blue?style=flat-square)](https://github.com/Newtanmukh?tab=repositories)
-[![Followers](https://img.shields.io/badge/Followers-8-brightgreen?style=flat-square)](https://github.com/Newtanmukh)
-[![Following](https://img.shields.io/badge/Following-10-orange?style=flat-square)](https://github.com/Newtanmukh)
-[![Contributions](https://img.shields.io/badge/Annual%20Contributions-102+-green?style=flat-square)](https://github.com/Newtanmukh)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=764ba2&text=📊%20GitHub%20Analytics&fontSize=30&fontColor=fff&height=100"/>
 
----
+</div>
 
-## 🌐 **Connect With Me**
+<div align="center">
 
-<table align="center">
-<tr>
-<td align="center">
-<a href="https://www.linkedin.com/in/newtan-ag-mukhopadhyay-ba2193209/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-</td>
-<td align="center">
-<a href="https://github.com/Newtanmukh">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/Location-Dharwad%2C%20India-red?style=for-the-badge" alt="Location" />
-</td>
-</tr>
-</table>
-
----
-
-<div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #667eea; margin: 20px 0;">
-
-### 🎯 **Currently**
-
-🔭 Exploring advanced System Design & Distributed Systems Architecture  
-🌱 Learning Kubernetes, Microservices Patterns, and Advanced Database Optimization  
-👯 Collaborating on open-source projects & innovative initiatives  
-💡 Building next-generation solutions at Paytm  
+[![GitHub Stats](https://img.shields.io/badge/Repositories-52-667eea?style=flat-square&logo=github&logoColor=white)](https://github.com/Newtanmukh?tab=repositories)
+[![GitHub Stats](https://img.shields.io/badge/Followers-8-764ba2?style=flat-square&logo=github&logoColor=white)](https://github.com/Newtanmukh)
+[![GitHub Stats](https://img.shields.io/badge/Following-10-FF6B6B?style=flat-square&logo=github&logoColor=white)](https://github.com/Newtanmukh)
+[![GitHub Stats](https://img.shields.io/badge/Contributions-102+-00CED1?style=flat-square&logo=github&logoColor=white)](https://github.com/Newtanmukh)
 
 </div>
 
 ---
 
-<div style="background: linear-gradient(135deg, rgba(245, 127, 23, 0.08) 0%, rgba(255, 193, 7, 0.08) 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #f57f17; margin: 20px 0;">
+<details>
+<summary><h2>🎯 Currently</h2></summary>
 
-### ⚡ **Fun Facts About Me**
+🔭 Exploring advanced System Design & Distributed Systems Architecture  
+🌱 Learning Kubernetes, Microservices Patterns, Advanced Database Optimization  
+👯 Collaborating on open-source projects & innovative initiatives  
+💡 Building next-generation solutions at Paytm  
+
+</details>
+
+<details>
+<summary><h2>⚡ Fun Facts</h2></summary>
 
 🎖️ Passionate about algorithmic problem-solving and optimization  
 🔬 Enthusiast of system design and distributed computing  
@@ -193,26 +205,25 @@ Implementation and exploration of Lex and Bison compiler tools demonstrating lex
 🤝 Active contributor to tech communities  
 🎨 Attention to detail in logic and user experience  
 
-</div>
+</details>
 
 ---
 
 <div align="center">
 
-### 📧 **Let's Connect!**
-
-Feel free to reach out for collaboration, interesting projects, technical discussions, or just to chat about tech.
-
-<a href="https://www.linkedin.com/in/newtan-ag-mukhopadhyay-ba2193209/">
-<img src="https://img.shields.io/badge/DM%20Me%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn DM" />
-</a>
-
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=FF6B6B&text=🌐%20Connect%20With%20Me&fontSize=30&fontColor=fff&height=100"/>
 
 <br/>
 
-**Thanks for visiting my profile! Don't forget to star ⭐ any projects you find interesting!**
+<a href="https://www.linkedin.com/in/newtan-ag-mukhopadhyay-ba2193209/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="https://github.com/Newtanmukh">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
 
-*Last Updated: March 2026*
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=667eea&height=120&section=footer&text=Thanks%20for%20Visiting!%20Star%20⭐%20my%20repos&fontSize=18&fontColor=fff&animation=fadeIn"/>
 
 </div>
