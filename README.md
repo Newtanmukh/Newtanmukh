@@ -1,113 +1,58 @@
 <div align="center">
 
-## 👋 Hi there! I'm **Newtan Ananda Gopal Mukhopadhyay**
+## 👋 Welcome! I'm **Newtan Ananda Gopal Mukhopadhyay**
 
-<img src="assets/profile.jpg" alt="Newtan Mukhopadhyay" width="250" height="250" style="border-radius: 50%; border: 4px solid #4CAF50; box-shadow: 0 8px 32px 0 rgba(76, 175, 80, 0.3);" />
+<img src="assets/profile.jpg" alt="Newtan Mukhopadhyay" width="220" height="220" style="border-radius: 15%; border: 3px solid #667eea; box-shadow: 0 10px 40px rgba(102, 126, 234, 0.25), 0 0 20px rgba(102, 126, 234, 0.15);" />
 
-### 🚀 **Software Engineer | Problem Solver | System Designer**
+### 🚀 **Software Engineer | System Designer | Problem Solver**
 
 [![GitHub](https://img.shields.io/badge/GitHub-@Newtanmukh-181717?style=for-the-badge&logo=github)](https://github.com/Newtanmukh)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Newtan%20AG-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/newtan-ag-mukhopadhyay-ba2193209/)
 [![Gmail](https://img.shields.io/badge/Gmail-Contact%20Me-EA4335?style=for-the-badge&logo=gmail)](mailto:your-email@example.com)
 
-**IIT Dharwad'23 | Currently @ Paytm | Building scalable systems**
+**IIT Dharwad'23 | Paytm | Building Scalable Systems**
 
 </div>
 
 ---
 
-<div align="center">
+<div align="center" style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%); padding: 30px; border-radius: 10px; border-left: 4px solid #667eea;">
 
-### ✨ **About Me** ✨
+### ✨ **About Me**
+
+I'm a **Full-Stack Software Engineer** with deep expertise in **System Design**, **Data Structures & Algorithms**, and **Backend Development**. I solve complex computational problems and design scalable distributed systems. With a strong foundation from IIT Dharwad and practical experience at industry-leading companies, I build efficient solutions that impact millions.
+
+🎯 Optimizing systems • 🧮 Crafting elegant algorithms • 🔧 Building at scale • 📚 Always learning
 
 </div>
 
-I'm a passionate **Full-Stack Software Engineer** with deep expertise in **System Design**, **Data Structures & Algorithms**, and **Backend Development**. I thrive on solving complex computational problems and designing scalable distributed systems. With a strong academic foundation from IIT Dharwad and practical experience at industry-leading companies, I'm driven to build efficient, robust solutions that impact millions of users.
-
-🎯 **My Passion:** Optimizing systems, crafting elegant algorithms, and exploring cutting-edge technologies  
-💡 **My Goal:** Creating software that's not just functional but exceptional
-
 ---
-
-<div align="center">
 
 ### 💼 **Professional Experience**
 
-</div>
-
-<table align="center">
-<tr>
-<td width="50%">
-
-#### 🔷 **Software Engineer @ Paytm**
-*Current Role*
-- Building robust backend systems
-- Designing scalable microservices
-- Optimizing payment infrastructure
-- Mentoring junior developers
-
-</td>
-<td width="50%">
-
-#### 🔶 **SDE Intern @ Altair Engineering**
-*Previous Experience*
-- Developed innovative software solutions
-- Worked on production-level systems
-- Collaborated with cross-functional teams
-- Full-stack development projects
-
-</td>
-</tr>
-</table>
+| Role | Company | Experience |
+|------|---------|------------|
+| **Software Engineer** | Paytm | Building robust backend systems, designing scalable microservices, optimizing payment infrastructure |
+| **SDE Intern** | Altair Engineering | Developed innovative software solutions, worked on production-level systems, collaborated across teams |
 
 ---
-
-<div align="center">
 
 ### 🎓 **Education**
 
-</div>
-
-```
-┌─────────────────────────────────────────┐
-│  Bachelor of Technology (B.Tech)        │
-│  Computer Science & Engineering         │
-│  IIT Dharwad | 2023                     │
-│  Dharwad, Karnataka, India              │
-└─────────────────────────────────────────┘
-```
+**Bachelor of Technology (B.Tech) in Computer Science & Engineering**  
+IIT Dharwad | 2023 | Dharwad, Karnataka, India
 
 ---
 
-<div align="center">
-
 ### 💻 **Technical Skills**
 
-</div>
+**Programming Languages**  
+Java • Python • C++ • JavaScript • SQL
 
-**Programming Languages**
-```
-Java         ████████████████████░ 95%
-Python       ████████████████░░░░░ 85%
-C++          ████████████████░░░░░ 85%
-JavaScript   ██████████████░░░░░░░ 75%
-SQL          ████████████░░░░░░░░░ 70%
-```
+**Core Competencies**  
+System Design • Data Structures & Algorithms • Backend Development • Microservices • Database Design • OOP & Design Patterns • Problem Solving
 
-**Core Competencies**
-```
-System Design             ██████████████████░░ 90%
-Data Structures & Algos   ██████████████████░░ 90%
-Backend Development       █████████████████░░░ 85%
-Microservices             ████████████████░░░░ 80%
-Database Design           ████████████████░░░░ 80%
-OOP & Design Patterns     █████████████████░░░ 85%
-Problem Solving           ██████████████████░░ 90%
-```
-
-**Technologies & Tools**
-| Category | Technologies |
-|----------|---------------|
+**Technologies & Tools**  
 | **Frameworks** | Node.js, Spring Boot, JSP, Django |
 | **Databases** | MySQL, PostgreSQL, MongoDB |
 | **Tools** | Git, Docker, Kubernetes, Jenkins |
@@ -115,166 +60,90 @@ Problem Solving           ██████████████████
 
 ---
 
-<div align="center">
+## 📌 **Featured Projects**
 
-### 📌 **Featured Projects**
+### 🖥️ **OS Simulator - AGNI**
 
-</div>
+A comprehensive OS simulator implementing core operating system concepts including process scheduling algorithms (FCFS, SJF, Round Robin), memory allocation, paging, and CPU scheduling strategies. Built using C++, Python, and advanced data structures.
 
-<div align="center">
-
-#### ⚡ **🔥 FLAGSHIP PROJECTS 🔥** ⚡
-
-</div>
+**Tech Stack:** `C++` `Python` `Linked Lists` `Graphs` `Trees`  
+🔗 [GitHub Repository](https://github.com/Newtanmukh/AGNI)
 
 ---
 
-<div align="center">
+### 🛡️ **Malware Analysis with ML - RND**
 
-#### **🖥️ OS Simulator - AGNI**
-<a href="https://github.com/Newtanmukh/AGNI">
-<img src="https://img.shields.io/badge/GitHub-AGNI-181717?style=for-the-badge&logo=github" alt="AGNI">
-</a>
-
-**Custom Operating System Simulator**
-
-Engineered a comprehensive OS simulator implementing core operating system concepts. Features process scheduling algorithms, memory management, and CPU allocation strategies.
-
-**Tech Stack:** `C++` `Python` `Data Structures` `Algorithms`  
-**Key Features:**
-- ✓ Process Management & Scheduling (FCFS, SJF, Round Robin)
-- ✓ Memory Allocation & Paging
-- ✓ Linked Lists, Graphs, Tree-based structures
-- ✓ Multi-threaded simulation environment
-
-</div>
-
----
-
-<div align="center">
-
-#### **🛡️ Malware Analysis with ML - RND**
-<a href="https://github.com/Newtanmukh/RND">
-<img src="https://img.shields.io/badge/GitHub-RND-181717?style=for-the-badge&logo=github" alt="RND">
-</a>
-
-**Machine Learning-Powered Security Analysis**
-
-Advanced cybersecurity project leveraging machine learning for malware detection and analysis. Implemented sophisticated algorithms for threat classification and pattern recognition.
+Advanced cybersecurity project leveraging machine learning for malware detection and behavioral analysis. Implements sophisticated algorithms for threat classification, pattern recognition, and feature extraction from malware samples.
 
 **Tech Stack:** `Python` `Machine Learning` `Deep Learning` `Data Analysis`  
-**Key Features:**
-- ✓ Malware Classification Models
-- ✓ Feature Extraction & Analysis
-- ✓ Advanced Pattern Recognition
-- ✓ Behavioral Analysis Engine
-
-</div>
+🔗 [GitHub Repository](https://github.com/Newtanmukh/RND)
 
 ---
 
-<div align="center">
+### ⚙️ **Pipelined Processor**
 
-#### **⚙️ Pipelined Processor**
-<a href="https://github.com/Newtanmukh/Pipelined_Processor">
-<img src="https://img.shields.io/badge/GitHub-Pipelined%20Processor-181717?style=for-the-badge&logo=github" alt="Pipelined Processor">
-</a>
+Simulated a complete pipelined processor architecture following the ToyRISC instruction set. Demonstrates deep understanding of computer architecture, instruction pipeline implementation, hazard detection, and performance optimization.
 
-**ToyRISC Processor Implementation**
-
-Simulated a complete pipelined processor architecture following the ToyRISC instruction set. Demonstrates deep understanding of computer architecture and low-level optimization.
-
-**Tech Stack:** `Hardware Description` `Computer Architecture` `Assembly`  
-**Key Features:**
-- ✓ Instruction Pipeline Implementation
-- ✓ Hazard Detection & Resolution
-- ✓ Memory Hierarchy Simulation
-- ✓ Performance Optimization
-
-</div>
+**Tech Stack:** `Computer Architecture` `Hardware Design` `Assembly`  
+🔗 [GitHub Repository](https://github.com/Newtanmukh/Pipelined_Processor)
 
 ---
 
-<div align="center">
+### 🧮 **DSA Mastery - Java Edition**
 
-#### **🧮 DSA Mastery - Java Edition**
-<a href="https://github.com/Newtanmukh/DSA-Using-Java">
-<img src="https://img.shields.io/badge/GitHub-DSA%20Using%20Java-181717?style=for-the-badge&logo=github" alt="DSA Using Java">
-</a>
+Curated collection of essential Data Structures and Algorithms problems covering Dynamic Programming, Graph Algorithms, Tree Structures, Sliding Window optimization, and advanced data structures. Each solution optimized for time and space complexity.
 
-**Comprehensive DSA Problem Collection**
-
-Curated collection of essential DSA problems across all major domains. Each solution is optimized for both time and space complexity.
-
-**Problem Categories:**
-- 📊 Dynamic Programming - `Memoization & Tabulation`
-- 📈 Graph Algorithms - `BFS, DFS, Shortest Path`
-- 🌳 Tree Structures - `BST, AVL, Segment Trees`
-- 🔄 Sliding Window - `Optimal Subarray Problems`
-- 🔗 Advanced Data Structures - `Heaps, Tries, Hash Maps`
-
-</div>
+**Tech Stack:** `Java` `DSA` `Algorithms`  
+🔗 [GitHub Repository](https://github.com/Newtanmukh/DSA-Using-Java)
 
 ---
 
-<div align="center">
+### 🐍 **Python Frameworks & ML Tutorials**
 
-#### **🐍 Python Frameworks & ML Tutorials**
-<a href="https://github.com/Newtanmukh/Python-Frameworks-Tutorials">
-<img src="https://img.shields.io/badge/GitHub-Python%20Tutorials-181717?style=for-the-badge&logo=github" alt="Python Tutorials">
-</a>
+Comprehensive learning resource covering Python frameworks, machine learning fundamentals, and deep learning implementations. Includes Flask, Django, TensorFlow, PyTorch projects, data science applications, and computer vision implementations.
 
-**Comprehensive Learning Resource**
-
-Complete guide and tutorials covering Python frameworks, machine learning, and deep learning implementations with real-world projects.
-
-**Includes:**
-- 🎯 Flask & Django Web Frameworks
-- 🤖 Machine Learning Fundamentals
-- 🧠 Deep Learning Models (TensorFlow, PyTorch)
-- 📊 Data Science Projects
-- 📈 Computer Vision Applications
-
-</div>
+**Tech Stack:** `Python` `Flask` `Django` `TensorFlow` `PyTorch`  
+🔗 [GitHub Repository](https://github.com/Newtanmukh/Python-Frameworks-Tutorials)
 
 ---
 
-<div align="center">
+### 🛒 **Online BookStore**
 
-#### **OTHER NOTABLE PROJECTS**
+Full-featured e-commerce platform for ordering books with shopping cart functionality, order management, and user authentication system. Built using Java, JDBC, JSP, and SQL.
 
-</div>
-
-| 🛒 Online BookStore | 💬 Chat Application | 🧮 Competitive Programming | ⚙️ Compiler Design |
-|:---:|:---:|:---:|:---:|
-| Full-stack e-commerce | Real-time messaging | LeetCode & DSA | Lex & Bison |
-| Java, JDBC, JSP, SQL | Node.js, Socket.IO | C++, Problem Solving | Compiler Concepts |
-| [Repo](https://github.com/Newtanmukh/Online-BookStore-Website) | [Repo](https://github.com/Newtanmukh/Chat-App-using-NodeJS-and-SocketIO) | [Repo](https://github.com/Newtanmukh/DSA-Problems) | [Repo](https://github.com/Newtanmukh/Using-Lex-and-Bison) |
+**Tech Stack:** `Java` `JDBC` `JSP` `Servlets` `SQL`  
+🔗 [GitHub Repository](https://github.com/Newtanmukh/Online-BookStore-Website)
 
 ---
 
-<div align="center">
+### 💬 **Chat Application**
 
-### 📊 **GitHub Analytics**
+Real-time messaging application with instant message delivery, user presence detection, and live notifications using Node.js and Socket.IO for WebSocket communication.
 
-</div>
+**Tech Stack:** `Node.js` `Socket.IO` `JavaScript`  
+🔗 [GitHub Repository](https://github.com/Newtanmukh/Chat-App-using-NodeJS-and-SocketIO)
 
-<div align="center">
+---
+
+### ⚙️ **Compiler Design - Lex & Bison**
+
+Implementation and exploration of Lex and Bison compiler tools demonstrating lexical analysis and syntax parsing concepts.
+
+**Tech Stack:** `Lex` `Bison` `Compiler Design`  
+🔗 [GitHub Repository](https://github.com/Newtanmukh/Using-Lex-and-Bison)
+
+---
+
+## 📊 **GitHub Analytics**
 
 [![GitHub Stats](https://img.shields.io/badge/Repositories-52-blue?style=flat-square)](https://github.com/Newtanmukh?tab=repositories)
 [![Followers](https://img.shields.io/badge/Followers-8-brightgreen?style=flat-square)](https://github.com/Newtanmukh)
 [![Following](https://img.shields.io/badge/Following-10-orange?style=flat-square)](https://github.com/Newtanmukh)
 [![Contributions](https://img.shields.io/badge/Annual%20Contributions-102+-green?style=flat-square)](https://github.com/Newtanmukh)
 
-</div>
-
 ---
 
-<div align="center">
-
-### 🌐 **Let's Connect**
-
-</div>
+## 🌐 **Connect With Me**
 
 <table align="center">
 <tr>
@@ -296,44 +165,39 @@ Complete guide and tutorials covering Python frameworks, machine learning, and d
 
 ---
 
-<div align="center">
+<div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #667eea; margin: 20px 0;">
 
 ### 🎯 **Currently**
 
+🔭 Exploring advanced System Design & Distributed Systems Architecture  
+🌱 Learning Kubernetes, Microservices Patterns, and Advanced Database Optimization  
+👯 Collaborating on open-source projects & innovative initiatives  
+💡 Building next-generation solutions at Paytm  
+
 </div>
 
-> 🔭 **Exploring:** Advanced System Design & Distributed Systems Architecture  
-> 🌱 **Learning:** Kubernetes, Microservices Patterns, Advanced Database Optimization  
-> 👯 **Collaborating:** Open-source projects & innovative tech initiatives  
-> 💡 **Building:** Next-generation solutions at Paytm  
+---
+
+<div style="background: linear-gradient(135deg, rgba(245, 127, 23, 0.08) 0%, rgba(255, 193, 7, 0.08) 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #f57f17; margin: 20px 0;">
+
+### ⚡ **Fun Facts About Me**
+
+🎖️ Passionate about algorithmic problem-solving and optimization  
+🔬 Enthusiast of system design and distributed computing  
+📚 Continuous learner embracing cutting-edge technologies  
+🏆 Believer in clean code, SOLID principles, and best practices  
+🤝 Active contributor to tech communities  
+🎨 Attention to detail in logic and user experience  
+
+</div>
 
 ---
 
 <div align="center">
 
-### 💡 **Quick Facts About Me**
+### 📧 **Let's Connect!**
 
-</div>
-
-- 🎖️ Passionate about algorithmic problem-solving and optimization
-- 🔬 Enthusiast of system design and distributed computing
-- 📚 Continuous learner embracing cutting-edge technologies
-- 🏆 Believer in clean code, SOLID principles, and best practices
-- 🤝 Active contributor to tech communities and open-source development
-- ⚡ Always seeking elegant and efficient solutions
-- 🎨 Attention to detail in both logic and user experience
-
----
-
-<div align="center">
-
-### 📧 **Get In Touch**
-
-Feel free to reach out for:
-- 💼 Collaboration opportunities
-- 🚀 Exciting project ideas
-- 📖 Technical discussions
-- 🤝 Networking & mentorship
+Feel free to reach out for collaboration, interesting projects, technical discussions, or just to chat about tech.
 
 <a href="https://www.linkedin.com/in/newtan-ag-mukhopadhyay-ba2193209/">
 <img src="https://img.shields.io/badge/DM%20Me%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn DM" />
@@ -343,14 +207,8 @@ Feel free to reach out for:
 
 <br/>
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white;">
-
-### ✨ **Thanks for visiting my profile!** ✨
-
-**Don't forget to star ⭐ any projects you find interesting!**
+**Thanks for visiting my profile! Don't forget to star ⭐ any projects you find interesting!**
 
 *Last Updated: March 2026*
-
-</div>
 
 </div>
