@@ -4,7 +4,7 @@
 
 <br/>
 
-<img alt="Newtan Mukhopadhyay" src="assets/profile.jpg" width="200px" height="200px" style="border-radius: 50%; border: 4px solid #667eea; box-shadow: 0 0 30px rgba(102, 126, 234, 0.6), inset 0 0 20px rgba(102, 126, 234, 0.2);"/>
+<img alt="Newtan Mukhopadhyay" src="assets/profile.jpg" width="200px" height="200px" style="border-radius: 50%; border: 4px solid #667eea; box-shadow: 0 0 30px rgba(102, 126, 234, 0.6);"/>
 
 <h1>🚀 Software Engineer | System Designer | Problem Solver</h1>
 
@@ -29,7 +29,6 @@ I'm a **Full-Stack Software Engineer** with deep expertise in **System Design**,
 
 🎯 Optimizing systems • 🧮 Crafting elegant algorithms • 🔧 Building at scale • 📚 Always learning
 
-<!-- Terminal/Console Effect -->
 ```
 $ whoami
   Newtan Ananda Gopal Mukhopadhyay
@@ -47,23 +46,6 @@ $ echo "Let's build something amazing! 🚀"
 </details>
 
 ---
-
-<div align="center">
-
-<!-- Animated Shapes -->
-<svg width="100%" height="150" viewBox="0 0 400 150" style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);">
-  <circle cx="50" cy="75" r="30" fill="#667eea" opacity="0.7" style="animation: float1 3s ease-in-out infinite;"/>
-  <rect x="150" y="50" width="60" height="60" fill="#764ba2" opacity="0.6" style="animation: float2 4s ease-in-out infinite;" rx="10"/>
-  <polygon points="300,40 340,110 260,110" fill="#FF6B6B" opacity="0.7" style="animation: float3 3.5s ease-in-out infinite;"/>
-  
-  <style>
-    @keyframes float1 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-30px); } }
-    @keyframes float2 { 0%, 100% { transform: translateX(0px) rotate(0deg); } 50% { transform: translateX(30px) rotate(15deg); } }
-    @keyframes float3 { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(20px); } }
-  </style>
-</svg>
-
-</div>
 
 <details open>
 <summary><h2>💼 Professional Experience</h2></summary>
@@ -113,20 +95,6 @@ IIT Dharwad | 2023 | Dharwad, Karnataka, India
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
 
-<!-- Animated Tech Stack Section -->
-<div style="margin-top: 20px; padding: 15px; background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); border-radius: 10px; border-left: 4px solid #667eea;">
-  
-```
-> Tech Stack Visualization
-
-Database:    ████████████░░░░░ MySQL, PostgreSQL, MongoDB
-Backend:     █████████████░░░░ Node.js, Spring Boot, Django
-DevOps:      ███████████░░░░░░ Docker, Kubernetes, Git
-Architecture:████████████░░░░░ Microservices, REST APIs, gRPC
-```
-
-</div>
-
 </details>
 
 ---
@@ -135,19 +103,7 @@ Architecture:████████████░░░░░ Microservices, 
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=667eea&text=📌%20Featured%20Projects&fontSize=30&fontColor=fff&height=100"/>
 
-<!-- Animated Decorative Separator -->
-<svg width="100%" height="60" viewBox="0 0 400 60" style="margin: 10px 0;">
-  <circle cx="60" cy="30" r="8" fill="#667eea" style="animation: pulse1 2s ease-in-out infinite;"/>
-  <circle cx="120" cy="30" r="8" fill="#764ba2" style="animation: pulse2 2s ease-in-out infinite;"/>
-  <circle cx="180" cy="30" r="8" fill="#FF6B6B" style="animation: pulse3 2s ease-in-out infinite;"/>
-  <circle cx="240" cy="30" r="8" fill="#00CED1" style="animation: pulse4 2s ease-in-out infinite;"/>
-  <circle cx="300" cy="30" r="8" fill="#FFD700" style="animation: pulse5 2s ease-in-out infinite;"/>
-  <circle cx="360" cy="30" r="8" fill="#667eea" style="animation: pulse1 2s ease-in-out infinite;"/>
-  
-  <style>
-    @keyframes pulse1 { 0%, 100% { r: 8; opacity: 1; } 50% { r: 12; opacity: 0.6; } }
-    @keyframes pulse2 { 0%, 100% { r: 8; opacity: 1; } 50% { r: 12; opacity: 0.6; } }
-    @keyframes pulse3 { 0%, 100% { r: 8; opacity: 1; } 50% { r: 12; opacity: 0.6; } }
+</div>
     @keyframes pulse4 { 0%, 100% { r: 8; opacity: 1; } 50% { r: 12; opacity: 0.6; } }
     @keyframes pulse5 { 0%, 100% { r: 8; opacity: 1; } 50% { r: 12; opacity: 0.6; } }
   </style>
@@ -228,28 +184,6 @@ LeetCode & DSA | `C++` | [Repo](https://github.com/Newtanmukh/DSA-Problems)
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=764ba2&text=📊%20GitHub%20Analytics&fontSize=30&fontColor=fff&height=100"/>
 
-<!-- Animated Stats Animation -->
-<svg width="100%" height="80" viewBox="0 0 400 80" style="margin: 20px 0;">
-  <rect x="10" y="60" width="30" height="20" fill="#667eea" style="animation: barGrow1 1.5s ease-out forwards;"/>
-  <rect x="50" y="40" width="30" height="40" fill="#764ba2" style="animation: barGrow2 1.5s ease-out forwards; animation-delay: 0.2s;"/>
-  <rect x="90" y="20" width="30" height="60" fill="#FF6B6B" style="animation: barGrow3 1.5s ease-out forwards; animation-delay: 0.4s;"/>
-  <rect x="130" y="35" width="30" height="45" fill="#00CED1" style="animation: barGrow4 1.5s ease-out forwards; animation-delay: 0.6s;"/>
-  <rect x="170" y="10" width="30" height="70" fill="#FFD700" style="animation: barGrow5 1.5s ease-out forwards; animation-delay: 0.8s;"/>
-  <rect x="210" y="30" width="30" height="50" fill="#667eea" style="animation: barGrow1 1.5s ease-out forwards; animation-delay: 1s;"/>
-  <rect x="250" y="50" width="30" height="30" fill="#764ba2" style="animation: barGrow2 1.5s ease-out forwards; animation-delay: 1.2s;"/>
-  <rect x="290" y="25" width="30" height="55" fill="#FF6B6B" style="animation: barGrow3 1.5s ease-out forwards; animation-delay: 1.4s;"/>
-  <rect x="330" y="40" width="30" height="40" fill="#00CED1" style="animation: barGrow4 1.5s ease-out forwards; animation-delay: 1.6s;"/>
-  <rect x="370" y="15" width="20" height="65" fill="#FFD700" style="animation: barGrow5 1.5s ease-out forwards; animation-delay: 1.8s;"/>
-  
-  <style>
-    @keyframes barGrow1 { from { height: 0; y: 80; } to { height: 20; y: 60; } }
-    @keyframes barGrow2 { from { height: 0; y: 80; } to { height: 40; y: 40; } }
-    @keyframes barGrow3 { from { height: 0; y: 80; } to { height: 60; y: 20; } }
-    @keyframes barGrow4 { from { height: 0; y: 80; } to { height: 45; y: 35; } }
-    @keyframes barGrow5 { from { height: 0; y: 80; } to { height: 70; y: 10; } }
-  </style>
-</svg>
-
 </div>
 
 <div align="center">
@@ -291,27 +225,6 @@ LeetCode & DSA | `C++` | [Repo](https://github.com/Newtanmukh/DSA-Problems)
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FF6B6B&text=🌐%20Connect%20With%20Me&fontSize=30&fontColor=fff&height=100"/>
 
-<!-- Animated Connection Links -->
-<svg width="100%" height="100" viewBox="0 0 400 100" style="margin: 20px 0;">
-  <circle cx="80" cy="50" r="25" fill="none" stroke="#667eea" stroke-width="2" style="animation: ping1 2s infinite;"/>
-  <circle cx="80" cy="50" r="18" fill="#667eea" opacity="0.8"/>
-  <text x="80" y="55" text-anchor="middle" fill="white" font-weight="bold" font-size="20">GitHub</text>
-  
-  <circle cx="200" cy="50" r="25" fill="none" stroke="#764ba2" stroke-width="2" style="animation: ping2 2s infinite;"/>
-  <circle cx="200" cy="50" r="18" fill="#764ba2" opacity="0.8"/>
-  <text x="200" y="55" text-anchor="middle" fill="white" font-weight="bold" font-size="18">LinkedIn</text>
-  
-  <circle cx="320" cy="50" r="25" fill="none" stroke="#FF6B6B" stroke-width="2" style="animation: ping3 2s infinite;"/>
-  <circle cx="320" cy="50" r="18" fill="#FF6B6B" opacity="0.8"/>
-  <text x="320" y="55" text-anchor="middle" fill="white" font-weight="bold" font-size="20">Email</text>
-  
-  <style>
-    @keyframes ping1 { 0%, 100% { r: 25; opacity: 0; } 50% { r: 40; opacity: 0.4; } }
-    @keyframes ping2 { 0%, 100% { r: 25; opacity: 0; } 50% { r: 40; opacity: 0.4; } }
-    @keyframes ping3 { 0%, 100% { r: 25; opacity: 0; } 50% { r: 40; opacity: 0.4; } }
-  </style>
-</svg>
-
 <br/>
 
 <a href="https://www.linkedin.com/in/newtan-ag-mukhopadhyay-ba2193209/">
@@ -324,20 +237,5 @@ LeetCode & DSA | `C++` | [Repo](https://github.com/Newtanmukh/DSA-Problems)
 <br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=667eea&height=120&section=footer&text=Thanks%20for%20Visiting!%20Star%20⭐%20my%20repos&fontSize=18&fontColor=fff&animation=fadeIn"/>
-
-<!-- Final Animated Border -->
-<svg width="100%" height="40" viewBox="0 0 400 40">
-  <line x1="0" y1="20" x2="400" y2="20" stroke="url(#grad)" stroke-width="2" style="animation: shimmer 3s infinite;"/>
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FF6B6B;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <style>
-    @keyframes shimmer { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
-  </style>
-</svg>
 
 </div>
