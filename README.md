@@ -31,27 +31,7 @@ I'm a **Full-Stack Software Engineer** with deep expertise in **System Design**,
 
 <div align="center">
 
-```bash
-┌─────────────────────────────────────────────────────────┐
-│  $ whoami                                               │
-│  Newtan Ananda Gopal Mukhopadhyay                       │
-│                                                         │
-│  $ cat interests.txt                                    │
-│  ┌─────────────────────────────────────────────────┐   │
-│  │ > System Design Enthusiast                      │   │
-│  │ > Algorithm Optimization Expert                 │   │
-│  │ > Distributed Systems Builder                   │   │
-│  │ > Problem Solver | Mentor | Learner             │   │
-│  └─────────────────────────────────────────────────┘   │
-│                                                         │
-│  $ npm run build-dreams                                 │
-│  🚀 Building scalable solutions...                      │
-│  ✓ System architectures designed                        │
-│  ✓ Algorithms optimized                                 │
-│  ✓ Impact created at scale                              │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
+<img src="assets/terminal-animation.gif" alt="Terminal Animation" width="100%" style="border-radius: 8px; box-shadow: 0 0 20px rgba(102, 126, 234, 0.5);"/>
 
 </div>
 
