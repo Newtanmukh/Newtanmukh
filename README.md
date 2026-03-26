@@ -29,19 +29,31 @@ I'm a **Full-Stack Software Engineer** with deep expertise in **System Design**,
 
 🎯 Optimizing systems • 🧮 Crafting elegant algorithms • 🔧 Building at scale • 📚 Always learning
 
-```
-$ whoami
-  Newtan Ananda Gopal Mukhopadhyay
+<div align="center">
 
-$ cat interests.txt
-  > System Design Enthusiast
-  > Algorithm Optimization Expert
-  > Distributed Systems Builder
-  > Problem Solver | Mentor | Learner
-
-$ echo "Let's build something amazing! 🚀"
-  > Let's build something amazing! 🚀
+```bash
+┌─────────────────────────────────────────────────────────┐
+│  $ whoami                                               │
+│  Newtan Ananda Gopal Mukhopadhyay                       │
+│                                                         │
+│  $ cat interests.txt                                    │
+│  ┌─────────────────────────────────────────────────┐   │
+│  │ > System Design Enthusiast                      │   │
+│  │ > Algorithm Optimization Expert                 │   │
+│  │ > Distributed Systems Builder                   │   │
+│  │ > Problem Solver | Mentor | Learner             │   │
+│  └─────────────────────────────────────────────────┘   │
+│                                                         │
+│  $ npm run build-dreams                                 │
+│  🚀 Building scalable solutions...                      │
+│  ✓ System architectures designed                        │
+│  ✓ Algorithms optimized                                 │
+│  ✓ Impact created at scale                              │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
 ```
+
+</div>
 
 </details>
 
@@ -102,12 +114,6 @@ IIT Dharwad | 2023 | Dharwad, Karnataka, India
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=667eea&text=📌%20Featured%20Projects&fontSize=30&fontColor=fff&height=100"/>
-
-</div>
-    @keyframes pulse4 { 0%, 100% { r: 8; opacity: 1; } 50% { r: 12; opacity: 0.6; } }
-    @keyframes pulse5 { 0%, 100% { r: 8; opacity: 1; } 50% { r: 12; opacity: 0.6; } }
-  </style>
-</svg>
 
 </div>
 
